@@ -899,10 +899,9 @@
     <div class="success-box">
       <div class="success-icon">🎉</div>
       <h2>Order success!</h2>
-      <p id="successMsg">Tumhara order place ho gaya. WhatsApp pe confirm message aayega thodi der mein.<br><br>Khana
-        tayaar karke 45 minute mein pahunch jaayenge!</p>
+      <p id="successMsg">Your Order has been placed. We will confirm you shortly.<br><br>In next 45 minutes you will recieve your meal!</p>
       <button class="btn-primary" style="margin-top:24px; display:block; width:100%; text-align:center;"
-        onclick="closeSuccess()">Theek Hai!</button>
+        onclick="closeSuccess()">Okay!</button>
     </div>
   </div>
 
@@ -1046,8 +1045,8 @@
       // Modal band karo, success dikhaao
       closeModal();
       document.getElementById('successMsg').innerHTML = `
-    <strong>${name}</strong> ka order confirm! 🎉<br><br>
-    WhatsApp pe details bhej di gayi hain.<br>
+    <strong>${name}</strong> Yours order confirmed! 🎉<br><br>
+    Details has been sent to your number.<br>
     45 minute mein garam khana aa jaayega.<br><br>
     <small style="color:#aaa">Total: ₹${total} | Payment: ${payment}</small>
   `;
